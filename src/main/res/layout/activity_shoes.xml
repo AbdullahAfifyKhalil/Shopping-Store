@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+
+            android:id="@+id/constraintLayout"
+            android:layout_width="412dp"
+            android:layout_height="1838dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <!--product number 1-->
+
+            <ImageView
+                android:id="@+id/man"
+                android:layout_width="335dp"
+                android:layout_height="320dp"
+
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="68dp"
+                android:layout_marginEnd="38dp"
+                android:foreground="@drawable/man"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/man" />
+
+            <TextView
+                android:id="@+id/stext1"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="396dp"
+                android:layout_marginEnd="38dp"
+
+                android:background="@drawable/roundcorner"
+                android:text="Man Shoes"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/sadd1"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="445dp"
+                android:layout_marginEnd="213dp"
+                android:background="@drawable/round_corner"
+                android:text="Add To Cart"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/cview1"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="445dp"
+                android:layout_marginEnd="37dp"
+                android:background="@drawable/round_corner"
+                android:text="View More"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <!--product number 2-->
+
+            <TextView
+                android:id="@+id/price1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="88dp"
+                android:layout_marginEnd="278dp"
+                android:background="@drawable/round_corner_2"
+                android:fontFamily="sans-serif"
+                android:text=" 370 EGP "
+                android:textColor="#F6FF00"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/woman"
+                android:layout_width="335dp"
+                android:layout_height="320dp"
+
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="505dp"
+                android:layout_marginEnd="38dp"
+                android:foreground="@drawable/woman"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/price2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="287dp"
+                android:layout_marginTop="536dp"
+                android:layout_marginEnd="38dp"
+                android:background="@drawable/round_corner_2"
+                android:fontFamily="sans-serif"
+                android:text=" 218 EGP "
+                android:textColor="#F6FF00"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/stext2"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="838dp"
+                android:layout_marginEnd="38dp"
+                android:background="@drawable/roundcorner"
+                android:text="Woman Shoes"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <!--product number 3-->
+
+            <Button
+                android:id="@+id/view2"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+
+                android:layout_marginStart="213dp"
+                android:layout_marginTop="883dp"
+                android:layout_marginEnd="39dp"
+                android:background="@drawable/round_corner"
+                android:text="View More"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/sadd2"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="883dp"
+                android:layout_marginEnd="214dp"
+                android:background="@drawable/round_corner"
+                android:text="Add To Cart"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/boy"
+                android:layout_width="335dp"
+                android:layout_height="320dp"
+
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="947dp"
+                android:layout_marginEnd="40dp"
+                android:foreground="@drawable/boy"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/price3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="965dp"
+                android:layout_marginEnd="278dp"
+                android:background="@drawable/round_corner_2"
+                android:fontFamily="sans-serif"
+                android:text=" 145 EGP "
+                android:textColor="#F6FF00"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/stext3"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="1283dp"
+                android:layout_marginEnd="41dp"
+                android:background="@drawable/roundcorner"
+                android:text="Boy Shoes"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <!--product number 4-->
+
+            <Button
+                android:id="@+id/view3"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="1323dp"
+                android:layout_marginEnd="42dp"
+                android:background="@drawable/round_corner"
+                android:text="View More"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/sadd3"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="1323dp"
+                android:layout_marginEnd="216dp"
+                android:background="@drawable/round_corner"
+                android:text="Add To Cart"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/girl"
+                android:layout_width="335dp"
+                android:layout_height="320dp"
+
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="1388dp"
+                android:layout_marginEnd="42dp"
+                android:foreground="@drawable/girl"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/price4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="283dp"
+                android:layout_marginTop="1424dp"
+                android:layout_marginEnd="42dp"
+                android:background="@drawable/round_corner_2"
+                android:fontFamily="sans-serif"
+                android:text=" 135 EGP "
+                android:textColor="#F6FF00"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/stext4"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="1720dp"
+                android:layout_marginEnd="43dp"
+                android:background="@drawable/roundcorner"
+                android:text="Girl Shoes"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/view4"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+                android:layout_marginStart="209dp"
+                android:layout_marginTop="1760dp"
+                android:layout_marginEnd="43dp"
+                android:background="@drawable/round_corner"
+                android:text="View More"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/sadd4"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="1760dp"
+                android:layout_marginEnd="218dp"
+                android:background="@drawable/round_corner"
+                android:text="Add To Cart"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Adress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="161dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="161dp"
+                android:text='"Shoes"'
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#38078F"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

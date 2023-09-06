@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+
+            android:id="@+id/constraintLayout"
+            android:layout_width="391dp"
+            android:layout_height="1862dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <!--product number 1-->
+
+            <ImageView
+                android:id="@+id/fridge"
+                android:layout_width="335dp"
+                android:layout_height="320dp"
+
+                android:layout_marginTop="61dp"
+                android:layout_marginEnd="39dp"
+                android:foreground="@drawable/fridge"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/fridge" />
+
+            <TextView
+                android:id="@+id/etext1"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="388dp"
+                android:layout_marginEnd="39dp"
+                android:background="@drawable/roundcorner"
+                android:text="Samsung professional Fridge"
+                android:textAlignment="center"
+
+                android:textColor="#0E0E0E"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/eadd1"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+                android:layout_marginTop="436dp"
+                android:layout_marginEnd="210dp"
+
+
+                android:background="@drawable/round_corner"
+                android:text="Add To Cart"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/cview1"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+                android:layout_marginTop="436dp"
+                android:layout_marginEnd="36dp"
+
+
+                android:background="@drawable/round_corner"
+                android:text="View More"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <!--product number 2-->
+
+            <TextView
+                android:id="@+id/price1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="266dp"
+                android:layout_marginTop="284dp"
+                android:layout_marginEnd="60dp"
+                android:background="@drawable/round_corner_2"
+                android:fontFamily="sans-serif"
+                android:text=" 34,000 EGP "
+                android:textColor="#F6FF00"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/mixer"
+                android:layout_width="335dp"
+                android:layout_height="320dp"
+
+                android:layout_marginTop="508dp"
+                android:layout_marginEnd="35dp"
+                android:foreground="@drawable/mixer"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/price2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="91dp"
+                android:layout_marginTop="650dp"
+                android:layout_marginEnd="262dp"
+                android:background="@drawable/round_corner_2"
+                android:fontFamily="sans-serif"
+                android:text=" 740 EGP "
+                android:textColor="#F6FF00"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/etext2"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="836dp"
+                android:layout_marginEnd="35dp"
+                android:background="@drawable/roundcorner"
+                android:text="Mixer and Blender"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/view2"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+
+                android:layout_marginTop="883dp"
+                android:layout_marginEnd="38dp"
+                android:background="@drawable/round_corner"
+                android:text="View More"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/eadd2"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+
+                android:layout_marginTop="883dp"
+                android:layout_marginEnd="214dp"
+                android:background="@drawable/round_corner"
+                android:text="Add To Cart"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <!--product number 3-->
+
+            <ImageView
+                android:id="@+id/iphone"
+                android:layout_width="335dp"
+                android:layout_height="320dp"
+
+                android:layout_marginTop="961dp"
+                android:layout_marginEnd="39dp"
+                android:foreground="@drawable/iphone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/price3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="278dp"
+                android:layout_marginTop="1207dp"
+                android:layout_marginEnd="48dp"
+                android:background="@drawable/round_corner_2"
+                android:fontFamily="sans-serif"
+                android:text=" 22,798 EGP "
+                android:textColor="#F6FF00"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/etext3"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="1289dp"
+                android:layout_marginEnd="39dp"
+                android:background="@drawable/roundcorner"
+                android:text="Iphone 11 Pro Max"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/view3"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+                android:layout_marginTop="1339dp"
+                android:layout_marginEnd="38dp"
+                android:background="@drawable/round_corner"
+                android:text="View More"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/eadd3"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+
+                android:layout_marginTop="1339dp"
+                android:layout_marginEnd="214dp"
+                android:background="@drawable/round_corner"
+                android:text="Add To Cart"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <!--product number 4-->
+
+            <ImageView
+                android:id="@+id/fan"
+                android:layout_width="335dp"
+                android:layout_height="320dp"
+
+                android:layout_marginTop="1416dp"
+                android:layout_marginEnd="39dp"
+                android:foreground="@drawable/fan"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/price4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="107dp"
+                android:layout_marginTop="1576dp"
+                android:layout_marginEnd="246dp"
+                android:background="@drawable/round_corner_2"
+                android:fontFamily="sans-serif"
+                android:text=" 860 EGP "
+                android:textColor="#F6FF00"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/etext4"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="1743dp"
+                android:layout_marginEnd="39dp"
+                android:background="@drawable/roundcorner"
+                android:text="High Quality Fan"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/view4"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+                android:layout_marginTop="1792dp"
+                android:layout_marginEnd="39dp"
+                android:background="@drawable/round_corner"
+                android:text="View More"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/eadd4"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+
+                android:layout_marginTop="1792dp"
+                android:layout_marginEnd="214dp"
+                android:background="@drawable/round_corner"
+                android:text="Add To Cart"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Adress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="178dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="163dp"
+                android:text='"Electronics"'
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#38078F"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

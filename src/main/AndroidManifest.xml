@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pk.gb.useraccount">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".terramycin"></activity>
+        <activity android:name=".ketofan" />
+        <activity android:name=".dexa" />
+        <activity android:name=".asp" />
+        <activity android:name=".asposid" />
+        <activity android:name=".cart" />
+        <activity android:name=".Shoes" />
+        <activity android:name=".Makeup" />
+        <activity android:name=".Medicine" />
+        <activity android:name=".Electronics" />
+        <activity android:name=".Grocery" />
+        <activity android:name=".Clothes" />
+        <activity android:name=".Categories" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

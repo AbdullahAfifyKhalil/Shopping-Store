@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+
+            android:id="@+id/constraintLayout"
+            android:layout_width="440dp"
+            android:layout_height="1847dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <!--product number 1-->
+
+            <ImageView
+                android:id="@+id/lipstick"
+                android:layout_width="335dp"
+                android:layout_height="320dp"
+
+                android:layout_marginStart="65dp"
+
+                android:layout_marginTop="61dp"
+                android:layout_marginEnd="39dp"
+                android:foreground="@drawable/lipstick"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/lipstick" />
+
+            <TextView
+                android:id="@+id/utext1"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="65dp"
+
+                android:layout_marginTop="388dp"
+                android:layout_marginEnd="39dp"
+                android:background="@drawable/roundcorner"
+                android:text="Natural And Pure Lipstick"
+                android:textAlignment="center"
+
+                android:textColor="#0E0E0E"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/uadd1"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="436dp"
+                android:layout_marginEnd="210dp"
+
+
+                android:background="@drawable/round_corner"
+                android:text="Add To Cart"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.838"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/cview1"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="436dp"
+                android:layout_marginEnd="36dp"
+
+
+                android:background="@drawable/round_corner"
+                android:text="View More"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.87"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <!--product number 2-->
+
+            <TextView
+                android:id="@+id/price1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="262dp"
+                android:layout_marginTop="125dp"
+                android:layout_marginEnd="103dp"
+                android:background="@drawable/round_corner_2"
+                android:fontFamily="sans-serif"
+                android:text=" 45 EGP "
+                android:textColor="#F6FF00"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/monicure"
+                android:layout_width="335dp"
+                android:layout_height="320dp"
+
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="508dp"
+                android:layout_marginEnd="35dp"
+                android:foreground="@drawable/monicure"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.87"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/price2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="607dp"
+                android:layout_marginEnd="269dp"
+                android:background="@drawable/round_corner_2"
+                android:fontFamily="sans-serif"
+                android:text=" 23 EGP "
+                android:textColor="#F6FF00"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/utext2"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="836dp"
+                android:layout_marginEnd="39dp"
+                android:background="@drawable/roundcorner"
+                android:text="Monicure"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/view2"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+
+                android:layout_marginStart="241dp"
+                android:layout_marginTop="883dp"
+                android:layout_marginEnd="38dp"
+                android:background="@drawable/round_corner"
+                android:text="View More"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/uadd2"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="883dp"
+                android:layout_marginEnd="214dp"
+                android:background="@drawable/round_corner"
+                android:text="Add To Cart"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <!--product number 3-->
+
+            <ImageView
+                android:id="@+id/eyeliner"
+                android:layout_width="335dp"
+                android:layout_height="320dp"
+
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="961dp"
+                android:layout_marginEnd="39dp"
+                android:foreground="@drawable/eyeliner"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/price3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="137dp"
+                android:layout_marginTop="1029dp"
+                android:layout_marginEnd="228dp"
+                android:background="@drawable/round_corner_2"
+                android:fontFamily="sans-serif"
+                android:text=" 38 EGP "
+                android:textColor="#F6FF00"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/utext3"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="1289dp"
+                android:layout_marginEnd="39dp"
+                android:background="@drawable/roundcorner"
+                android:text="High Quality Eyeliner"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/view3"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+                android:layout_marginStart="242dp"
+                android:layout_marginTop="1339dp"
+                android:layout_marginEnd="38dp"
+                android:background="@drawable/round_corner"
+                android:text="View More"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/uadd3"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="1339dp"
+                android:layout_marginEnd="214dp"
+                android:background="@drawable/round_corner"
+                android:text="Add To Cart"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <!--product number 4-->
+
+            <ImageView
+                android:id="@+id/foundation"
+                android:layout_width="335dp"
+                android:layout_height="320dp"
+
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="1416dp"
+                android:layout_marginEnd="39dp"
+                android:foreground="@drawable/foundation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/price4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="290dp"
+                android:layout_marginTop="1629dp"
+                android:layout_marginEnd="76dp"
+                android:background="@drawable/round_corner_2"
+                android:fontFamily="sans-serif"
+                android:text=" 86 EGP "
+                android:textColor="#F6FF00"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/utext4"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="1743dp"
+                android:layout_marginEnd="39dp"
+                android:background="@drawable/roundcorner"
+                android:text="Foundation"
+                android:textAlignment="center"
+                android:textColor="#0E0E0E"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/view4"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+                android:layout_marginStart="241dp"
+                android:layout_marginTop="1792dp"
+                android:layout_marginEnd="39dp"
+                android:background="@drawable/round_corner"
+                android:text="View More"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/uadd4"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+
+
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="1792dp"
+                android:layout_marginEnd="214dp"
+                android:background="@drawable/round_corner"
+                android:text="Add To Cart"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Adress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="178dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="163dp"
+                android:text='"Makeup"'
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#38078F"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
